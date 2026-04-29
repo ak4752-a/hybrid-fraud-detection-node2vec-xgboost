@@ -59,11 +59,12 @@ Fraud detection datasets are highly imbalanced, where fraudulent transactions ar
 
 ## Project Structure
 
+
 .
 ├── notebooks/
 │   ├── 01_baseline_rf_smote.ipynb
 │   └── 02_hybrid_node2vec_xgboost.ipynb
-├── data/                # Not included
+├── data/              # Not included
 └── paper/
     └── research_paper.pdf
 
