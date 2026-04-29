@@ -62,11 +62,17 @@ Fraud detection datasets are highly imbalanced, where fraudulent transactions ar
 ```text
 project_root/
 ├── notebooks/
-│   ├── 01_baseline_rf_smote.ipynb        # Baseline model with class balancing
-│   └── 02_hybrid_node2vec_xgboost.ipynb  # Graph embeddings + boosted trees
-├── data/                                 # Raw and processed datasets (excluded)
+│   ├── 01_baseline_rf_smote.ipynb        # Baseline experiments
+│   └── 02_hybrid_node2vec_xgboost.ipynb  # Graph-enhanced experiments
+├── src/
+│   ├── __init__.py
+│   ├── baseline_preprocessing.py         # Tabular data prep (Baseline)
+│   ├── baseline_model.py                 # RF + SMOTE logic (Baseline)
+│   ├── hybrid_preprocessing.py           # Graph & Hybrid data prep
+│   └── hybrid_model.py                   # XGBoost & Balanced RF logic
+├── data/                                 # Excluded via .gitignore
 └── paper/
-    └── research_paper.pdf                # Project documentation
+    └── research_paper.pdf
 ```
 
 ## How to Run
