@@ -100,4 +100,4 @@ project_root/
 ---
 
 ## Author
-Aditya Kumar Kapar, Mayank Guptaa, Shaunak Borker, Milan Kuiry, Harsh Garg
+Aditya Kumar Kapar, Mayank Gupta, Shaunak Borker, Milan Kuiry, Harsh Garg
